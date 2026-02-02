@@ -13,5 +13,11 @@ export default defineConfig({
   },
   server: {
     port: 5174,
+    proxy: {
+      '/api.php': {
+        target: 'http://localhost:8000',
+        changeOrigin: true,
+      },
+    },
   },
 })
