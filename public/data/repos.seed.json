@@ -1,0 +1,74 @@
+{
+  "root": {
+    "id": "root",
+    "name": "Root",
+    "folders": [
+      {
+        "id": "work",
+        "name": "Work Projects",
+        "folders": [
+          {
+            "id": "frontend",
+            "name": "Frontend",
+            "folders": [],
+            "repos": [
+              {
+                "id": "react-app",
+                "name": "React Dashboard",
+                "url": "https://github.com/example/react-dashboard"
+              },
+              {
+                "id": "vue-app",
+                "name": "Vue Components",
+                "url": "https://github.com/example/vue-components"
+              }
+            ]
+          },
+          {
+            "id": "backend",
+            "name": "Backend",
+            "folders": [],
+            "repos": [
+              {
+                "id": "api-server",
+                "name": "API Server",
+                "url": "https://github.com/example/api-server"
+              }
+            ]
+          }
+        ],
+        "repos": []
+      },
+      {
+        "id": "personal",
+        "name": "Personal",
+        "folders": [],
+        "repos": [
+          {
+            "id": "portfolio",
+            "name": "Portfolio Site",
+            "url": "https://github.com/example/portfolio"
+          },
+          {
+            "id": "blog",
+            "name": "Personal Blog",
+            "url": "https://github.com/example/blog"
+          }
+        ]
+      },
+      {
+        "id": "learning",
+        "name": "Learning",
+        "folders": [],
+        "repos": [
+          {
+            "id": "tutorials",
+            "name": "Code Tutorials",
+            "url": "https://github.com/example/tutorials"
+          }
+        ]
+      }
+    ],
+    "repos": []
+  }
+}
